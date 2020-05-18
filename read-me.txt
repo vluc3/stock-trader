@@ -1,0 +1,43 @@
+npm install -g yarn
+yarn --version
+_________________________________
+
+yarn install
+
+yarn add jest --dev
+yarn add vue-template-compiler --dev
+yarn add vue-jest --dev
+yarn add @vue/test-utils --dev
+
+yarn add babel-core@latest --dev
+_________________________________
+
+yarn add babel-loader@latest --dev
+
+yarn add vue-router
+yarn add vue-resource
+_________________________________
+
+yarn jest spec/*.spec.js --watch
+
+yarn jest spec/App.spec.js
+yarn jest spec/Header.spec.js
+
+yarn jest spec/Stocks.spec.js
+yarn jest spec/Stock.spec.js
+
+yarn jest spec/Portfolios.spec.js
+yarn jest spec/Portfolio.spec.js
+_________________________________
+
+npm run dev
+_________________________________
+
+git init
+git remote add origin https://github.com/vluc3/stock-trader.git
+git branch
+git status
+
+git add .
+git commit -m "First commit"
+git push -u origin master
