@@ -5,14 +5,15 @@ _________________________________
 yarn install
 
 yarn add jest --dev
+yarn add jest-serializer-vue --dev
 yarn add vue-template-compiler --dev
 yarn add vue-jest --dev
 yarn add @vue/test-utils --dev
 
-yarn add babel-core@latest --dev
+yarn add babel-core@7.0.0-bridge.0 --dev
 _________________________________
 
-yarn add babel-loader@latest --dev
+yarn add babel-loader@8.1.0 --dev
 
 yarn add vue-router
 yarn add vue-resource
