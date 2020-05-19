@@ -65,3 +65,7 @@ git branch -D Jest
 
 Change of branch
 git checkout master
+
+_________________________________
+
+git clone [url or ssh]
