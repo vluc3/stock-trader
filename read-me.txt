@@ -42,3 +42,26 @@ git status
 git add .
 git commit -m "First commit"
 git push -u origin master
+_________________________________
+
+git pull
+git checkout -b Jest
+
+git add .
+git commit -m "First branch commit"
+git push origin Jest
+
+List of branches: 
+git branch -a
+
+Delete remote branch:
+git push origin :Jest
+
+Delete locale branch:
+git branch -d Jest
+
+Force Delete not merged locale branch:
+git branch -D Jest
+
+Change of branch
+git checkout master
